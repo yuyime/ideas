@@ -1,7 +1,7 @@
-#java的NaN
+# java的NaN
 
 
-###在java浮点数值计算都遵循IEEE 754规范，具体来说，下面是用于表示溢出和出错情况的三个特殊的浮点数值：
+### 在java浮点数值计算都遵循IEEE 754规范，具体来说，下面是用于表示溢出和出错情况的三个特殊的浮点数值：
 
 + 正无穷大(Double.POSITIVE_INFINITY)
 + 负无穷大(Double_NEGATIVE_INFINITY)
@@ -14,6 +14,6 @@
 例如，一个正整数除以0的结果为正无穷大，计算0.0/0或者负数的平方根结果为NaN。
 
 
-###检测一个特定值是否等于Double.NaN
+### 检测一个特定值是否等于Double.NaN
 Double.isNaN(d)
 d==Double.NaN false
